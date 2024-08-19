@@ -13,8 +13,8 @@ const Main = () => {
         setLoading(true);
         try {
             const url = searchQuery
-                ? `http://localhost:8200/api/v2/tasks/search?query=${encodeURIComponent(searchQuery)}`
-                : 'http://localhost:8200/api/v2/tasks';
+                ? `https://futureskills-assignment.onrender.com/api/v2/tasks/search?query=${encodeURIComponent(searchQuery)}`
+                : 'https://futureskills-assignment.onrender.com/api/v2/tasks';
             const response = await axios.get(url);
             setData(response.data);
             setLoading(false);

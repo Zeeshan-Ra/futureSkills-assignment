@@ -10,7 +10,7 @@ const Navbar = () => {
         <span>|</span>
         <h5>Help Center</h5>
       </div>
-      <button className='border-[1px] text-slate-200 rounded bg-zinc-900 font-medium py-1 px-3 relative right-44 hover:scale-110'>Submit a request</button>
+      <button className='border-[1px] text-slate-200 rounded bg-zinc-900 font-medium py-1 px-3 relative right-44 hover:scale-110 transition-all ease-in-out'>Submit a request</button>
     </div>
   )
 }
